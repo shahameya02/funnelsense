@@ -1,16 +1,21 @@
 {
-  "name": "funnel-analyzer",
-  "version": "0.1.0",
+  "name": "funnelsense",
+  "version": "1.0.0",
+  "description": "AI-powered funnel analysis tool",
+  "author": "Ameya Shah",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+    "papaparse": "^5.5.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "recharts": "^3.8.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
