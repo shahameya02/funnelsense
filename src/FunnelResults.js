@@ -284,7 +284,7 @@ function HighlightedPrompt({ text }) {
             </div>
           );
         }
-        if (/^[{}"[\]]/.test(line) || /^  ["{}[\]]/.test(line)) return <div key={i} className="pc-schema">{line}</div>;
+        if (/^[{}"[\]]/.test(line) || /^ {2}["{}[\]]/.test(line)) return <div key={i} className="pc-schema">{line}</div>;
         return <div key={i} className="pc-dim">{line || '\u00A0'}</div>;
       })}
     </div>
